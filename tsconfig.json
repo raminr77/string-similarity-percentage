@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "pretty": true,
+    "allowJs": true,
+    "rootDir": "src",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "baseUrl": ".",
+    "strict": true,
+    "target": "es2015",
+    "outDir": "./dist",
+    "declaration": true,
+    "module": "commonjs",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "noImplicitOverride": true,
+    "strictFunctionTypes": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

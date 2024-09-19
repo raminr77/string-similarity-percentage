@@ -1,0 +1,43 @@
+{
+  "license": "MIT",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "name": "string-similarity-percentage",
+  "author": "Ramin Rezaei - https://RaminRezaei.se",
+  "description": "It is a utility that calculates the similarity between two strings by providing a percentage score.",
+  "scripts": {
+    "build": "tsc",
+    "dev": "vitest",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "ci": "npm run build && npm run check-format && npm run test"
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts}": [
+      "prettier --write"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raminr77/string-similarity-percentage.git"
+  },
+  "keywords": [
+    "String",
+    "Similarity",
+    "Percentage"
+  ],
+  "bugs": {
+    "url": "https://github.com/raminr77/string-similarity-percentage/issues"
+  },
+  "homepage": "https://github.com/raminr77/string-similarity-percentage#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1"
+  }
+}
