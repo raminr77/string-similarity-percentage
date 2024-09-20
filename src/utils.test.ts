@@ -1,6 +1,13 @@
 import { test, expect } from 'vitest';
-import { getStringSimilarityPercentage } from './utils.js';
+import {
+  getTextSimilarityPercentage,
+  getCharacterSimilarityPercentage
+} from './utils.js';
 
-test('Get String Similarity Percentage', () => {
-  expect(getStringSimilarityPercentage('', '')).toBe(100);
+test('- Get Character Similarity Percentage', () => {
+  expect(getCharacterSimilarityPercentage('', '')).toBe(100);
+});
+
+test('- Get Text Similarity Percentage', () => {
+  expect(getTextSimilarityPercentage('', '')).toBe(100);
 });

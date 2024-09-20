@@ -1,1 +1,4 @@
-export { getStringSimilarityPercentage } from './utils.ts';
+export {
+  getTextSimilarityPercentage,
+  getCharacterSimilarityPercentage
+} from './utils.ts';
