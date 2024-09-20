@@ -6,7 +6,10 @@
  * @param {string}    scoundString - Secound String
  */
 
-export const getStringSimilarityPercentage = (firstString: string, scoundString: string): number => {
+export const getStringSimilarityPercentage = (
+  firstString: string,
+  scoundString: string
+): number => {
   if (firstString === scoundString) {
     return 100;
   }
